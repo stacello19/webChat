@@ -1,0 +1,16 @@
+doctype
+html
+    head
+        meta(charset='utf-8')
+        title GIF CHAT
+    body
+        div Press F12 to check console tap and network tap
+        script.
+            var webSocket = new WebSocket('ws://localhost:8005');
+            webSocket.onopen = function() {
+                console.log('Server and Websocket are connected')
+            }
+            webSocket.onmessage = function(event) {
+                console.log(event.data);
+                webSocket.send('Sending response from Client to Server')
+            }
