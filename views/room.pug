@@ -2,9 +2,9 @@ extends layout
 
 block content
   fieldset
-    legend Chat Room is created
+    legend create room
     form(action='/room' method='post')
-      div: input(name='title' placeholder='Room title')
-      div: input(name='max' type='number' placeholder='2people min' min='2' value='10')
-      div: input(name='password' type='password' placeholder='open chat without password')
+      div: input(name='title' placeholder='Title')
+      div: input(name='max' type='number' placeholder='min 2ppl' min='2' value='10')
+      div: input(name='password' type='password' placeholder='password')
       div: button(type='submit') create

@@ -12,6 +12,5 @@ html
                 transports: ['websocket']
             })
             socket.on('news', function(data) {
-                console.log(data)
                 socket.emit('reply', 'Hello Node.JS')
             })

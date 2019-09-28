@@ -1,17 +1,21 @@
-* { box-sizing: border-box; }
+* { 
+  box-sizing: border-box;
+  text-align: center;
+  font-style: oblique;
+ }
 .mine { text-align: right; }
 .system { text-align: center; }
 .mine img, .other img {
   max-width: 300px;
   display: inline-block;
-  border: 1px solid silver;
+  border: 3px solid silver;
   border-radius: 5px;
   padding: 2px 5px;
 }
 .mine div:first-child, .other div:first-child { font-size: 12px; }
 .mine div:last-child, .other div:last-child {
   display: inline-block;
-  border: 1px solid silver;
+  border: 3px solid silver;
   border-radius: 5px;
   padding: 2px 5px;
   max-width: 300px;
@@ -26,8 +30,49 @@ label[for='gif'], #chat, #chat-form [type='submit'] {
 }
 label[for='gif'] { cursor: pointer; padding: 5px; }
 #gif { display: none; }
+legend{
+  font-size: 40px;
+}
+table{
+  width: 100%;
+  font-size: 30px;
+  color: white;
+}
+th{
+  background-color: lightcoral;
+}
+td{
+  background-color: beige;
+  color: black;
+}
 table, table th, table td {
   text-align: center;
-  border: 1px solid silver;
+  border: 3px solid white;
   border-collapse: collapse;
+}
+
+a{
+  font-size: 30px;
+  border: 3px solid lightgreen;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+input{
+  width: 80%;
+  height: 30px;
+  margin: 3px;
+  background-color: rgb(204, 143, 143);
+  border-radius: 10px;
+  font-size: 15px;
+}
+form button{
+  width: 17%;
+  background-color: seashell;
+  font-size: 15px;
+  border-radius: 10px;
 }
