@@ -19,7 +19,7 @@ block content
             td= room.max
             td(style='color:' + room.owner)= room.owner
             -var password = room.password ? 'true' : 'false';
-            td: button(data-password=password data-id=room._id).join-btn 입장
+            td: button(data-password=password data-id=room._id).join-btn enter
   .error-message= error
   a(href='/room') create
   script(src='/socket.io/socket.io.js')
