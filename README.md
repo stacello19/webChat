@@ -1,4 +1,7 @@
-# webChat
+# WebChat
+
+## Overview
+Implemented Pug, Socket.io, MongoDB to create the chatting app. Consistently tracking the chatting data by fetching it from the database and sorted it out by its createdAt time.  Identifying the user through req.sessionID and color-hash.  
 
 ## To Work this on your Editor
 
