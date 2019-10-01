@@ -3,6 +3,9 @@
 ## Overview
 Implemented Pug, Socket.io, MongoDB to create the chatting app. Consistently tracking the chatting data by fetching it from the database and sorted it out by its createdAt time.  Identifying the user through req.sessionID and color-hash.  
 
+# Skills
+Socket.io, Pug, MongoDB, CSS
+
 ## To Work this on your Editor
 
 1. Git clone 
