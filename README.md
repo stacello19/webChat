@@ -1,15 +1,15 @@
 ![](https://media.giphy.com/media/ejz1NzRfl7EIeI6ChR/giphy.gif)
 
-# WebChat
+# WebChat.
 Implemented Pug, Socket.io, MongoDB to create the chatting app. Consistently tracking the chatting data by fetching it from the database and sorted it out by its createdAt time.  Identifying the user through req.sessionID and color-hash.  
 
-# Skills
+# Skills.
 * Socket.io
 * Pug
 * MongoDB
 * CSS
 
-## To Work this on your Editor
+## To Use It.
 
 1. Git clone 
 2. npm install
